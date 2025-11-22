@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@source "./src/**/*.{ts,tsx,jsx,js,mdx}";
+
+/* globals.css */
+.section-default {
+  @apply py-20 px-6 md:px-12 lg:px-24 max-w-7xl mx-auto;
+}
+
+.section-base {
+  @apply w-full py-20 px-6 md:px-12 lg:px-24;
+}
+
+.section-container {
+  @apply max-w-7xl mx-auto;
+}
+
+/* Optional variants */
+.section-light {
+  @apply bg-white;
+}
+
+.section-dark {
+  @apply bg-zinc-900 text-white;
+}
+
+.section-contrast {
+  @apply bg-zinc-100;
+}
